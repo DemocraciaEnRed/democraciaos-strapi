@@ -50,3 +50,7 @@ services:
 ```
 
 **NOTE:** Running the container of strapi with `NODE_ENV=production` you wont be able to create other content types. 
+
+## What needs to be persisted
+
+- Folder `api`, folder `public/uploads` (or just `/public`) and of course, the database.
